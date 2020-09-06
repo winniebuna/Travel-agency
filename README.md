@@ -1,2 +1,2 @@
 # Travel-agency
-a pretent travel agency that connects you to the best travel agents
+a pretend travel agency that connects you to the best travel agents
