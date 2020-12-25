@@ -162,48 +162,71 @@ p {
   cursor: pointer;
 }
 /*--reviews--*/
-#testimonial {
-  height: 60vh;
-  margin: 10%;
-  margin-bottom: 0px;
+.testimonial-section {
   background: #1b1b1b;
-}
-#testimonial h1 {
-  color: white;
-  margin-bottom: 1rem;
-  font-size: 30px;
+  padding: 40px 0;
+  height: 80vh;
+  place-items: center;
 }
 
-figure {
-  background: #202020;
-  display: block;
-  margin: 1.5rem;
-  padding: 0.7rem;
+.inner-width {
+  max-width: 1200px;
+  margin: auto;
+  padding: 0 20px;
 }
-blockquote {
-  background: transparent;
-  display: block;
-  margin: 1rem;
-  padding: 1.2rem;
-  font-size: 1rem;
-  font-style: italic;
+.inner-width h1 {
+  color: white;
+}
+
+.testimonial-section h1 {
   text-align: center;
-  color: #777474;
+  font-size: 24px;
 }
-figcaption {
-  background: transparent;
+
+.border {
+  width: 100px;
+  height: 3px;
+  background: #d99830;
+  margin: 40px auto;
+}
+
+.testimonial {
+  background: #f1f1f1;
+  padding: 1rem;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  z-index: -2;
+}
+
+.test-info {
+  display: flex;
+  height: 60px;
+  align-items: center;
+}
+
+.test-pic {
+  width: 50px !important;
+  border-radius: 50%;
+  margin-right: 15px;
+}
+
+.test-name {
+  font-size: 12px;
+  color: white;
+}
+
+span {
   display: block;
-  margin: 1.5rem;
-  padding: 0.7rem;
-  text-align: center;
-  margin-bottom: 0.1rem;
-  font-size: 0.9rem;
-  text-transform: uppercase;
-  font-weight: bold;
-  color: #777474;
+  font-size: 14px;
+  font-weight: 700;
+  color: #1b1b1b;
 }
-.glider-next {
-  right: -50px;
+
+.testimonial p {
+  font-size: 12px;
+  line-height: 22px;
+  margin-top: 20px;
 }
 
 /*--PRICING--*/
@@ -373,6 +396,7 @@ figcaption {
     justify-content: space-evenly;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
+    z-index: 2;
   }
   .nav-links li {
     opacity: 0;
@@ -422,8 +446,22 @@ figcaption {
   .social-icons {
     display: none;
   }
+
+  #service {
+    padding: 2rem;
+  }
   #testimonial {
     display: none;
+  }
+  #pricing,
+  #contact {
+    padding: 1rem 3rem;
+  }
+  .contact-col2 input {
+    width: 300px;
+  }
+  .footer-row {
+    display: inline-flex;
   }
 }
 @media screen and (min-width: 391px) and (max-width: 430px) {
