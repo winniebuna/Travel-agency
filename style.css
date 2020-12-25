@@ -9,13 +9,14 @@ body {
 }
 
 nav {
-  background: rgba(34, 33, 33, 0.404);
+  background: #202020;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 1rem 3rem;
   position: fixed;
   width: 100%;
+  z-index: 2;
 }
 .nav-links {
   display: flex;
@@ -152,7 +153,7 @@ p {
   top: 55%;
   left: 0;
   transform: translateY(-50%);
-  z-index: 2;
+  z-index: 1;
 }
 
 .social-icons img {
@@ -388,7 +389,7 @@ span {
     height: 100vh;
     width: 50%;
     top: 4vh;
-    background-color: #1b1b1b;
+    background-color: #202020;
     display: flex;
     flex-direction: column;
     align-items: center;
