@@ -165,7 +165,7 @@ p {
 .testimonial-section {
   background: #1b1b1b;
   padding: 40px 0;
-  height: 80vh;
+  height: 60vh;
   place-items: center;
 }
 
@@ -196,7 +196,6 @@ p {
   overflow: hidden;
   border-radius: 8px;
   cursor: pointer;
-  z-index: -2;
 }
 
 .test-info {
@@ -396,7 +395,6 @@ span {
     justify-content: space-evenly;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
-    z-index: 2;
   }
   .nav-links li {
     opacity: 0;
@@ -455,7 +453,7 @@ span {
   }
   #pricing,
   #contact {
-    padding: 1rem 3rem;
+    padding: 1rem 3rem 2rem;
   }
   .contact-col2 input {
     width: 300px;
